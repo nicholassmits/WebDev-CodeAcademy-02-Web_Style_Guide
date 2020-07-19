@@ -1,0 +1,73 @@
+/* Codecademy - Project 2 - Sample Style Guide /*
+/* Stylesheet v.1 */
+/* Last Editted: Nic Smits, 07/18/2020 @ 10:35pm */
+
+/* Layout Styles */
+body {
+    margin: auto;
+    max-width: 900px;
+}
+header {}
+section {
+    margin: 10px auto;
+    padding: 5px 10px;
+}
+footer {}
+
+/* Section: Colors */
+.colors {}
+.colors_boxes {padding: 5px;}
+.colors_boxes li {
+    display: inline-block;
+    list-style: none;
+    width: 200px;
+}
+.coolblue {background-color: #2d5dcc;}
+.pink {background-color: #d957d9;}
+.mintgreen {background-color: #4fe0b0;}
+.beige {background-color: #efd9ca;}
+
+/* Section: Fonts */
+.fonts {}
+.fonts div {
+    display: inline-block;
+    width: 380px; 
+}
+.sourcecodepro h2 {font-family: "Source Code Pro";}
+.sourcecodepro p {font-family: "Source Code Pro";}
+.nunitosans h2 {font-family: "Nunito Sans";}
+.nunitosans p {font-family: "Nunito Sans";}
+.poppins h2 {font-family: "Poppins";}
+.poppins p {font-family: "Poppins";}
+
+/* Section: Styles */
+.styles {}
+.h1 {}
+.h2 {}
+.p {}
+
+/* Recurring Styles */
+h1 {
+    font-family: "Nunito Sans";
+    font-weight: 700;
+    font-size: 26px;
+}
+h2 {
+    font-family: "Nunito Sans";
+    font-weight: 500;
+    font-size: 18px;
+}
+p {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;;
+}
+
+.border {border: 1px solid black;}
+.white {color: #ffffff;}
+.black {color: #000000;}
+.center {text-align: center;}
+.bold {font-weight: 700;}
+.italics {font-style: italics;}
+.underline {text-decoration: underline;}
